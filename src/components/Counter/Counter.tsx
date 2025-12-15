@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from 'store';
 
 import { counterSelectors, counterActions } from 'store/counter'
 
-import styles from './Counter.scss';
+import * as styles from './Counter.scss';
 
 export const Counter = () => {
   const dispatch = useDispatch();

@@ -1,4 +1,4 @@
-import styles from './Checking.scss';
+import * as styles from './Checking.scss';
 
 export const Checking = () => {
   return (

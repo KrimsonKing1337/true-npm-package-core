@@ -4,9 +4,10 @@ declare module '*.svg' {
   const content: (props: SVGProps<SVGElement>) => ReactElement;
   export default content;
 }
+
 declare module '*.scss' {
-  const content: Record<string, string>;
-  export default content;
+  const classes: { [key: string]: string };
+  export = classes;
 }
 
 declare module '*.jpg';

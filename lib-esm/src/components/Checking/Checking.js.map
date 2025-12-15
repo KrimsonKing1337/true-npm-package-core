@@ -1,1 +1,1 @@
-{"version":3,"file":"Checking.js","sourceRoot":"","sources":["../../../../src/components/Checking/Checking.tsx"],"names":[],"mappings":";AAAA,OAAO,MAAM,MAAM,iBAAiB,CAAC;AAErC,MAAM,CAAC,IAAM,QAAQ,GAAG;IACtB,OAAO,CACL,cAAK,SAAS,EAAE,MAAM,CAAC,OAAO,gCAExB,CACP,CAAC;AACJ,CAAC,CAAC"}
+{"version":3,"file":"Checking.js","sourceRoot":"","sources":["../../../../src/components/Checking/Checking.tsx"],"names":[],"mappings":";AAAA,OAAO,KAAK,MAAM,MAAM,iBAAiB,CAAC;AAE1C,MAAM,CAAC,IAAM,QAAQ,GAAG;IACtB,OAAO,CACL,cAAK,SAAS,EAAE,MAAM,CAAC,OAAO,gCAExB,CACP,CAAC;AACJ,CAAC,CAAC"}

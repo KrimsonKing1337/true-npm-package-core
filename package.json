@@ -1,6 +1,6 @@
 {
   "name": "true-npm-package-core",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Example how to create your \"true\" npm package",
   "main": "./",
   "scripts": {
