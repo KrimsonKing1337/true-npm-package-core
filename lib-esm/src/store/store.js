@@ -12,13 +12,13 @@ var middleware = [
 ];
 export var store = configureStore({
     reducer: reducer,
-    middleware: middleware,
+    middleware: function (getDefaultMiddleware) {
+        return getDefaultMiddleware().concat(middleware);
+    },
+    devTools: true,
 });
 sagaMiddleware.run(watchCounterActions);
-export var storeContext = createContext({
-    store: store,
-    storeState: reducer,
-});
+export var storeContext = createContext(null);
 export var useStore = createStoreHook(storeContext);
 export var useDispatch = createDispatchHook(storeContext);
 export var useSelector = createSelectorHook(storeContext);
